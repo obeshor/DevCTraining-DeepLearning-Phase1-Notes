@@ -1,1 +1,1 @@
-4 - The Inference Engine
+# 6 - Convolutional Neural Networks
