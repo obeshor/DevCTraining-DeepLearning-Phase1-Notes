@@ -1,1 +1,1 @@
-# 5 - Deploying an Edge App
+# 8 - Recurrent Neural Networks
