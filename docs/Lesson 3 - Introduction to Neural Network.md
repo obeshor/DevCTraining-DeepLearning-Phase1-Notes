@@ -4,7 +4,7 @@
   The problem of identifying to which of a set of categories (sub-populations) a new observation belongs.
 
   <p align="center">
-    <img src="./images/lesson-2/classification-problems.PNG" width="50%">
+    <img src="./images/lesson-3/classification-problems.PNG" width="50%">
   </p>
 
 #### Decision Boundary
@@ -12,12 +12,12 @@
 
   * Linear Boundaries
     <p align="center">
-      <img src="./images/lesson-2/linear-boundaries.PNG" width="50%">
+      <img src="./images/lesson-3/linear-boundaries.PNG" width="50%">
     </p>
 
   * Higher Dimensions
     <p align="center">
-      <img src="./images/lesson-2/higher-dimensions.PNG" width="50%">
+      <img src="./images/lesson-3/higher-dimensions.PNG" width="50%">
     </p>
 
 #### Perceptrons
@@ -26,7 +26,7 @@
   In the following illustration, the perceptron takes n inputs, each of which is itself modified by a weight before entering the perceptron:
 
   <p align="center">
-    <img src="./images/lesson-2/perceptrons.PNG" width="50%">
+    <img src="./images/lesson-3/perceptrons.PNG" width="50%">
   </p>
 
   A perceptron that takes in n inputs, each multiplied by separate
@@ -37,7 +37,7 @@
 #### Why "Neural Networks"?
 
   <p align="center">
-    <img src="./images/lesson-2/why-neural-network.PNG" width="50%">
+    <img src="./images/lesson-3/why-neural-network.PNG" width="50%">
   </p>
 
 #### Perceptrons as Logical Operators
@@ -45,17 +45,17 @@
 * AND Perceptron
 
   <p align="center">
-    <img src="./images/lesson-2/and-quiz.png" width="50%">
+    <img src="./images/lesson-3/and-quiz.png" width="50%">
   </p>
 
 * OR Perceptron
 
   <p align="center">
-    <img src="./images/lesson-2/or-quiz.png" width="50%">
+    <img src="./images/lesson-3/or-quiz.png" width="50%">
   </p>
 
     <p align="center">
-    <img src="./images/lesson-2/and-to-or.png" width="50%">
+    <img src="./images/lesson-3/and-to-or.png" width="50%">
   </p>
 
 * NOT Perceptron
@@ -64,27 +64,27 @@
 * XOR Perceptron
 
   <p align="center">
-    <img src="./images/lesson-2/xor.png" width="50%">
+    <img src="./images/lesson-3/xor.png" width="50%">
   </p>
 
 #### Perceptron Trick
 <p align="center">
-  <img src="./images/lesson-2/perceptron-trick.PNG" width="50%">
+  <img src="./images/lesson-3/perceptron-trick.PNG" width="50%">
 </p>
 
 #### Perceptron Algorithm
 <p align="center">
-  <img src="./images/lesson-2/perceptron-algorithm.PNG" width="50%">
+  <img src="./images/lesson-3/perceptron-algorithm.PNG" width="50%">
 </p>
 
 #### Non-Linear Regions
 <p align="center">
-  <img src="./images/lesson-2/non-linear-regions.PNG" width="50%">
+  <img src="./images/lesson-3/non-linear-regions.PNG" width="50%">
 </p>
 
 #### Error Functions
 <p align="center">
-  <img src="./images/lesson-2/error-functions.PNG" width="50%">
+  <img src="./images/lesson-3/error-functions.PNG" width="50%">
 </p>
 
 #### Log-loss Error Function
