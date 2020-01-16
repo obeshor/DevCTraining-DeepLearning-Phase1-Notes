@@ -9,14 +9,14 @@ Learn how to build, train, and deploy state-of-the-art deep learning models with
 More detailes about the program [here](https://www.udacity.com/scholarships/facebook-pytorch-scholarship).
 
 ## Content
-1. [Lesson 3: Introduction to Neural Network](https://github.com/itsLizza/FATQS_IntelEdgeAIFundamentalsCourse/blob/master/docs/Lesson%201%20-%20Introduction%20to%20AI%20at%20the%20Edge.md)
-2. [Lesson 4: Talking PyTorch with Soumith Chintala](https://github.com/itsLizza/FATQS_IntelEdgeAIFundamentalsCourse/blob/master/docs/Lesson%202%20-%20Leveraging%20Pre-Trained%20Models.md)
-3. [Lesson 5: Introduction to PyTorch](https://github.com/Skovsky/FATQS_IntelEdgeAIFundamentalsCourse/blob/master/docs/Lesson%203%20-%20The%20Model%20Optimizer.md)
-4. [Lesson 6: Convolutional Neural Networks](https://github.com/Skovsky/FATQS_IntelEdgeAIFundamentalsCourse/blob/master/docs/Lesson%204%20-%20The%20Inference%20Engine.md)
-5. [Lesson 7: Style Transfer](https://github.com/Skovsky/FATQS_IntelEdgeAIFundamentalsCourse/blob/master/docs/Lesson%205%20-%20Deploying%20an%20Edge%20App.md)
-6. [Lesson 8: Recurrent Neural Networks](https://github.com/Skovsky/FATQS_IntelEdgeAIFundamentalsCourse/blob/master/docs/Lesson%205%20-%20Deploying%20an%20Edge%20App.md)
-7. [Lesson 9: Sentiment Prediction with RNNs](https://github.com/Skovsky/FATQS_IntelEdgeAIFundamentalsCourse/blob/master/docs/Lesson%205%20-%20Deploying%20an%20Edge%20App.md)
-7. [Lesson 10: Deploying PyTorch Models](https://github.com/Skovsky/FATQS_IntelEdgeAIFundamentalsCourse/blob/master/docs/Lesson%205%20-%20Deploying%20an%20Edge%20App.md)
+1. [Lesson 3: Introduction to Neural Network](https://github.com/obeshor/DevCTraining-DeepLearning-Phase1-Notes/blob/master/docs/Lesson%203%20-%20Introduction%20to%20Neural%20Network.md)
+2. [Lesson 4: Talking PyTorch with Soumith Chintala](https://github.com/obeshor/DevCTraining-DeepLearning-Phase1-Notes/blob/master/docs/Lesson%204%20-%20Talking%20PyTorch%20with%20Soumith%20Chintala.md)
+3. [Lesson 5: Introduction to PyTorch](https://github.com/obeshor/DevCTraining-DeepLearning-Phase1-Notes/blob/master/docs/Lesson%205%20-%20Introduction%20to%20PyTorch.md)
+4. [Lesson 6: Convolutional Neural Networks](https://github.com/obeshor/DevCTraining-DeepLearning-Phase1-Notes/blob/master/docs/Lesson%206%20-%20Convolutional%20Neural%20Networks.md)
+5. [Lesson 7: Style Transfer](https://github.com/obeshor/DevCTraining-DeepLearning-Phase1-Notes/blob/master/docs/Lesson%207%20-%20Style%20Transfer.md)
+6. [Lesson 8: Recurrent Neural Networks](https://github.com/obeshor/DevCTraining-DeepLearning-Phase1-Notes/blob/master/docs/Lesson%208%20-%20Recurrent%20Neural%20Networks.md)
+7. [Lesson 9: Sentiment Prediction with RNNs](https://github.com/obeshor/DevCTraining-DeepLearning-Phase1-Notes/blob/master/docs/Lesson%209%20-%20Sentiment%20Prediction%20with%20RNNs.md)
+8. [Lesson 10: Deploying PyTorch Models](https://github.com/obeshor/DevCTraining-DeepLearning-Phase1-Notes/blob/master/docs/Lesson%2010%20-%20Deploying%20PyTorch%20Models.md)
 
 ## Other Resources
 
