@@ -4,7 +4,7 @@
 ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
 
 
-Learn how to build, train, and deploy state-of-the-art deep learning models with PyTorch. Apply to  ``Intro to Deep Learning with PyTorch course`` for the chance to participate in a vibrant student community and to earn one of 100 Deep Learning Nanodegree program.
+Learn how to build, train, and deploy state-of-the-art deep learning models with PyTorch. Apply to  ``Intro to Deep Learning with PyTorch course`` for the chance to participate in a vibrant student community and to earn one of ```100``` Deep Learning Nanodegree program.
 
 More detailes about the program [here](https://www.udacity.com/scholarships/facebook-pytorch-scholarship).
 
