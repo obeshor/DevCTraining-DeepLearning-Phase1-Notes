@@ -1,1 +1,1 @@
-# 5 - Deploying an Edge App
+# 10 - Deploying PyTorch Models
