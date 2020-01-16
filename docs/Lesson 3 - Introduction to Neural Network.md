@@ -1,5 +1,6 @@
 # 3 - Introduction to Neural Network
 ### Lectures
+  Neural networks are the basis of Deep Learning, the mimic how the barin learns.
 #### Classification Problems
   The problem of identifying to which of a set of categories (sub-populations) a new observation belongs.
 
@@ -162,6 +163,7 @@ The primary algorithm for performing gradient descent on neural networks. First,
 #### Overfitting & Underfitting
 ##### Overfitting
 Creating a model that matches the training data so closely that the model fails to make correct predictions on new data.
+This error due to high variance.
 
 ##### Underfitting
 Producing a model with poor predictive ability because the model hasn't captured the complexity of the training data. Many problems can cause underfitting, including:
@@ -170,6 +172,7 @@ Producing a model with poor predictive ability because the model hasn't captured
 * Training for too few epochs or at too low a learning rate.
 * Training with too high a regularization rate.
 * Providing too few hidden layers in a deep neural network.
+This error due to high bias
 
 <p align="center">
   <img src="./images/lesson-3/overfitting-and-underfitting.PNG" width="50%">
@@ -186,8 +189,8 @@ The penalty on a model's complexity. Regularization helps prevent overfitting. D
 
 * L1 regularization
 * L2 regularization
-* dropout regularization
-* early stopping (this is not a formal regularization method, but can effectively limit overfitting)
+* Dropout 
+* Early stopping : This method prevents Overfitting. We track the loss on the validation set during the training phase and use it to determine when to stop training such that the model is accurate but not overfitting
 
 <p align="center">
   <img src="./images/lesson-3/regularization.PNG" width="50%">
@@ -215,7 +218,7 @@ A sophisticated gradient descent algorithm in which a learning step depends not 
   <img src="./images/lesson-3/momentum.PNG" width="50%">
 </p>
 
-### Quizes
+### Quizzes
 * [Centurion's Note](https://files.slack.com/files-pri/TDBKE3X9D-FE3CP0FNW/download/udacity-pytorch-lesson2-notes.pdf)
 
 ### Notebooks
