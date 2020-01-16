@@ -172,6 +172,7 @@ Producing a model with poor predictive ability because the model hasn't captured
 * Training for too few epochs or at too low a learning rate.
 * Training with too high a regularization rate.
 * Providing too few hidden layers in a deep neural network.
+
 This error due to high bias
 
 <p align="center">
