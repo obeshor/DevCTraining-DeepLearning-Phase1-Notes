@@ -22,18 +22,18 @@
 
 #### MNIST Dataset
 <p align="center">
-  <img src="./images/lesson-5/mnist-database.PNG" width="50%">
+  <img src="./images/lesson-6/mnist-database.PNG" width="50%">
 </p>
 
 * Most famous database
 
 <p align="center">
-  <img src="./images/lesson-5/mnist.png" width="50%">
+  <img src="./images/lesson-6/mnist.png" width="50%">
 </p>
 
 #### How Computers Interpret Images
 <p align="center">
-  <img src="./images/lesson-5/normalization.PNG" width="50%">
+  <img src="./images/lesson-6/normalization.PNG" width="50%">
 </p>
 
 * __Data normalization__ is an important pre-processing step. It ensures that each input (each pixel value, in this case) comes from a standard distribution. 
@@ -41,12 +41,12 @@
 * [Normalize transformation in PyTorch](https://pytorch.org/docs/stable/torchvision/transforms.html#transforms-on-torch-tensor)
 
 <p align="center">
-  <img src="./images/lesson-5/flattening.PNG" width="50%">
+  <img src="./images/lesson-6/flattening.PNG" width="50%">
 </p>
 
 #### MLP (Multi Layer Perceptron) Structure & Class Scores
 <p align="center">
-  <img src="./images/lesson-5/mlp.PNG" width="50%">
+  <img src="./images/lesson-6/mlp.PNG" width="50%">
 </p>
 * layer
 
@@ -55,7 +55,7 @@ A set of neurons in a neural network that process a set of input features, or th
 Layers are Python functions that take Tensors and configuration options as input and produce other tensors as output. Once the necessary Tensors have been composed, the user can convert the result into an Estimator via a model function.
 
 <p align="center">
-  <img src="./images/lesson-5/class-scores.PNG" width="50%">
+  <img src="./images/lesson-6/class-scores.PNG" width="50%">
 </p>
 
 * class
@@ -73,21 +73,21 @@ The part of a recommendation system that provides a value or ranking for each it
 * Try out the models in code
 
 <p align="center">
-  <img src="./images/lesson-5/do-your-research.PNG" width="50%">
+  <img src="./images/lesson-6/do-your-research.PNG" width="50%">
 </p>
 
 #### Loss & Optimization
 
 <p align="center">
-  <img src="./images/lesson-5/learn-from-mistakes.PNG" width="50%">
+  <img src="./images/lesson-6/learn-from-mistakes.PNG" width="50%">
 </p>
 
 <p align="center">
-  <img src="./images/lesson-5/cross-entropy-loss.PNG" width="50%">
+  <img src="./images/lesson-6/cross-entropy-loss.PNG" width="50%">
 </p>
 
 <p align="center">
-  <img src="./images/lesson-5/gradient-descent.PNG" width="50%">
+  <img src="./images/lesson-6/gradient-descent.PNG" width="50%">
 </p>
 
 #### Defining a Network in PyTorch
@@ -98,7 +98,7 @@ An activation function with the following rules:
   * If input is positive, output is equal to input.
 
 <p align="center">
-  <img src="./images/lesson-5/relu-ex.png" width="50%">
+  <img src="./images/lesson-6/relu-ex.png" width="50%">
 </p>
 
 #### Training the Network
@@ -118,11 +118,11 @@ The steps for training/learning from a batch of data are described in the commen
 
 #### Model Validation
 <p align="center">
-  <img src="./images/lesson-5/model-validation.PNG" width="50%">
+  <img src="./images/lesson-6/model-validation.PNG" width="50%">
 </p>
 
 <p align="center">
-  <img src="./images/lesson-5/early-stopping.PNG" width="50%">
+  <img src="./images/lesson-6/early-stopping.PNG" width="50%">
 </p>
 
 #### Validation Loss
@@ -132,24 +132,24 @@ The steps for training/learning from a batch of data are described in the commen
 
 #### Image Classification Steps
 <p align="center">
-  <img src="./images/lesson-5/image-classification-steps.PNG" width="50%">
+  <img src="./images/lesson-6/image-classification-steps.PNG" width="50%">
 </p>
 
 #### MLPs vs CNNs
 * MNIST already centered, real image can be any position
 <p align="center">
-  <img src="./images/lesson-5/mnist-vs-real.PNG" width="50%">
+  <img src="./images/lesson-6/mnist-vs-real.PNG" width="50%">
 </p>
 
 #### Local Connectivity
 * Difference between MLP vs CNN
 <p align="center">
-  <img src="./images/lesson-5/mlp-vs-cnn.PNG" width="50%">
+  <img src="./images/lesson-6/mlp-vs-cnn.PNG" width="50%">
 </p>
 
 * Sparsely connected layer
 <p align="center">
-  <img src="./images/lesson-5/local-conn.PNG" width="50%">
+  <img src="./images/lesson-6/local-conn.PNG" width="50%">
 </p>
 
 #### Filters and the Convolutional Layer
@@ -157,13 +157,13 @@ The steps for training/learning from a batch of data are described in the commen
 * The key to remember spatial information is convolutional layer, which apply series of different image filters (convolutional kernels) to input image
 
 <p align="center">
-  <img src="./images/lesson-5/filtered-images.PNG" width="50%">
+  <img src="./images/lesson-6/filtered-images.PNG" width="50%">
 </p>
 
 * CNN should learn to identify spatial patterns like curves and lines that make up number six
 
 <p align="center">
-  <img src="./images/lesson-5/conv-layer.PNG" width="50%">
+  <img src="./images/lesson-6/conv-layer.PNG" width="50%">
 </p>
 
 #### Filters & Edges
@@ -180,7 +180,7 @@ The steps for training/learning from a batch of data are described in the commen
 #### Frequency in Images
 
 <p align="center">
-  <img src="./images/lesson-5/hf-image.png" width="50%">
+  <img src="./images/lesson-6/hf-image.png" width="50%">
 </p>
 
 * Frequency in images is a __rate of change__.
@@ -190,19 +190,19 @@ The steps for training/learning from a batch of data are described in the commen
 
 #### High-pass Filters
 <p align="center">
-  <img src="./images/lesson-5/filters.PNG" width="50%">
+  <img src="./images/lesson-6/filters.PNG" width="50%">
 </p>
 <p align="center">
-  <img src="./images/lesson-5/high-pass filters.PNG" width="50%">
+  <img src="./images/lesson-6/high-pass filters.PNG" width="50%">
 </p>
 <p align="center">
-  <img src="./images/lesson-5/edge-detection.PNG" width="50%">
+  <img src="./images/lesson-6/edge-detection.PNG" width="50%">
 </p>
 <p align="center">
-  <img src="./images/lesson-5/convolution-formula.PNG" width="50%">
+  <img src="./images/lesson-6/convolution-formula.PNG" width="50%">
 </p>
 <p align="center">
-  <img src="./images/lesson-5/convolution.PNG" width="50%">
+  <img src="./images/lesson-6/convolution.PNG" width="50%">
 </p>
 
 * Edge Handling
@@ -218,21 +218,21 @@ The steps for training/learning from a batch of data are described in the commen
 A layer of a deep neural network in which a convolutional filter passes along an input matrix. For example, consider the following 3x3 convolutional filter:
 
 <p align="center">
-  <img src="./images/lesson-5/3x3.svg" width="25%">
+  <img src="./images/lesson-6/3x3.svg" width="25%">
 </p>
 
 The following animation shows a convolutional layer consisting of 9 convolutional operations involving the 5x5 input matrix. Notice that each convolutional operation works on a different 3x3 slice of the input matrix. The resulting 3x3 matrix (on the right) consists of the results of the 9 convolutional operations:
 
 <p align="center">
-  <img src="./images/lesson-5/conv-anim.gif" width="50%">
+  <img src="./images/lesson-6/conv-anim.gif" width="50%">
 </p>
 
 <p align="center">
-  <img src="./images/lesson-5/conv-layer-1.png" width="50%">
+  <img src="./images/lesson-6/conv-layer-1.png" width="50%">
 </p>
 
 <p align="center">
-  <img src="./images/lesson-5/conv-layer-2.png" width="50%">
+  <img src="./images/lesson-6/conv-layer-2.png" width="50%">
 </p>
 
 * convolutional neural network
@@ -246,7 +246,7 @@ The following animation shows a convolutional layer consisting of 9 convolutiona
   Convolutional neural networks have had great success in certain kinds of problems, such as image recognition.
 
 <p align="center">
-  <img src="./images/lesson-5/cnn.png" width="50%">
+  <img src="./images/lesson-6/cnn.png" width="50%">
 </p>
 
 * See Also:
@@ -259,7 +259,7 @@ The following animation shows a convolutional layer consisting of 9 convolutiona
 * Color image -> 3 layers of 2D Matrix, one for each channel (Red, Green, Blue)
 
 <p align="center">
-  <img src="./images/lesson-5/conv-layer-rgb.PNG" width="50%">
+  <img src="./images/lesson-6/conv-layer-rgb.PNG" width="50%">
 </p>
 
 #### Stride and Padding
@@ -269,13 +269,13 @@ The following animation shows a convolutional layer consisting of 9 convolutiona
 * Size of convolutional layer depend on what we do at the edge of our image
 
 <p align="center">
-  <img src="./images/lesson-5/edge-skip.PNG" width="50%">
+  <img src="./images/lesson-6/edge-skip.PNG" width="50%">
 </p>
 
 * __Padding__ give filter more space to move by padding zeros to the edge of image
 
 <p align="center">
-  <img src="./images/lesson-5/padding.PNG" width="50%">
+  <img src="./images/lesson-6/padding.PNG" width="50%">
 </p>
 
 #### Pooling Layers
@@ -284,13 +284,13 @@ The following animation shows a convolutional layer consisting of 9 convolutiona
   Reducing a matrix (or matrices) created by an earlier convolutional layer to a smaller matrix. Pooling usually involves taking either the maximum or average value across the pooled area. For example, suppose we have the following 3x3 matrix:
 
   <p align="center">
-    <img src="./images/lesson-5/PoolingStart.svg" width="25%">
+    <img src="./images/lesson-6/PoolingStart.svg" width="25%">
   </p>
 
   A pooling operation, just like a convolutional operation, divides that matrix into slices and then slides that convolutional operation by strides. For example, suppose the pooling operation divides the convolutional matrix into 2x2 slices with a 1x1 stride. As the following diagram illustrates, four pooling operations take place. Imagine that each pooling operation picks the maximum value of the four in that slice:
 
   <p align="center">
-    <img src="./images/lesson-5/PoolingConvolution.svg" width="75%">
+    <img src="./images/lesson-6/PoolingConvolution.svg" width="75%">
   </p>
 
   Pooling helps enforce translational invariance in the input matrix.
@@ -303,17 +303,17 @@ The following animation shows a convolutional layer consisting of 9 convolutiona
   * discarding some spatial information abaout feature like a smooth background that don't help identify the image
 
 <p align="center">
-  <img src="./images/lesson-5/increasing-depth.PNG" width="50%">
+  <img src="./images/lesson-6/increasing-depth.PNG" width="50%">
 </p>
 
 #### CNNs for Image Classification
 
 <p align="center">
-  <img src="./images/lesson-5/cnn-img-class.PNG" width="50%">
+  <img src="./images/lesson-6/cnn-img-class.PNG" width="50%">
 </p>
 
 <p align="center">
-  <img src="./images/lesson-5/cnn-img-class-2.PNG" width="50%">
+  <img src="./images/lesson-6/cnn-img-class-2.PNG" width="50%">
 </p>
 
 #### Convolutional Layers in PyTorch
@@ -429,7 +429,7 @@ x = F.relu(self.conv1(x))
   Artificially boosting the range and number of training examples by transforming existing examples to create additional examples. For example, suppose images are one of your features, but your data set doesn't contain enough image examples for the model to learn useful associations. Ideally, you'd add enough labeled images to your data set to enable your model to train properly. If that's not possible, data augmentation can rotate, stretch, and reflect each image to produce many variants of the original picture, possibly yielding enough labeled data to enable excellent training.
 
 <p align="center">
-  <img src="./images/lesson-5/image-augmentation.PNG" width="50%">
+  <img src="./images/lesson-6/image-augmentation.PNG" width="50%">
 </p>
 
 * translational invariance
@@ -449,20 +449,20 @@ x = F.relu(self.conv1(x))
 * First breakthrough was in 2012, the network called AlexNet was developed by a team at the University of Toronto, they pioneered the use of the ReLU activation function and dropout as a technicque for avoiding overfitting
 
 <p align="center">
-  <img src="./images/lesson-5/alexnet.PNG" width="50%">
+  <img src="./images/lesson-6/alexnet.PNG" width="50%">
 </p>
 
 * 2014 winner was VGGNet often reffered to as just VGG (Visual Geometry Group) at Oxford University, has two version VGG 16 and VGG 19
 
 <p align="center">
-  <img src="./images/lesson-5/vgg.PNG" width="50%">
+  <img src="./images/lesson-6/vgg.PNG" width="50%">
 </p>
 
 
 * 2015 winner was Microsoft Research called ResNet, like VGG, largest groundbreaking has 152 layers, can solve vanishing gradient problem, achieves superhuman performances in classifying images in ImageNet database
 
 <p align="center">
-  <img src="./images/lesson-5/resnet.PNG" width="50%">
+  <img src="./images/lesson-6/resnet.PNG" width="50%">
 </p>
 
 #### Visualizing CNNs (Part 1)
@@ -471,7 +471,7 @@ x = F.relu(self.conv1(x))
   * say we have picture of tree, investigate filter for detecting a building, end up creating image that looks like some sort of tree or building hybrid
 
 <p align="center">
-  <img src="./images/lesson-5/viz-cnn-1.PNG" width="50%">
+  <img src="./images/lesson-6/viz-cnn-1.PNG" width="50%">
 </p>
 
 #### Visualizing CNNs (Part 2)
@@ -483,15 +483,15 @@ x = F.relu(self.conv1(x))
   * Layer 5 - classification
 
 <p align="center">
-  <img src="./images/lesson-5/viz-cnn-2a.PNG" width="50%">
+  <img src="./images/lesson-6/viz-cnn-2a.PNG" width="50%">
 </p>
 
 <p align="center">
-  <img src="./images/lesson-5/viz-cnn-2b.PNG" width="50%">
+  <img src="./images/lesson-6/viz-cnn-2b.PNG" width="50%">
 </p>
 
 <p align="center">
-  <img src="./images/lesson-5/viz-cnn-2c.PNG" width="50%">
+  <img src="./images/lesson-6/viz-cnn-2c.PNG" width="50%">
 </p>
 
 #### Summary of CNNs
@@ -509,7 +509,7 @@ x = F.relu(self.conv1(x))
 
 #### Q2 - 5.6: MLP Structure & Class Scores
 <p align="center">
-  <img src="./images/lesson-5/q2.PNG" width="50%">
+  <img src="./images/lesson-6/q2.PNG" width="50%">
 </p>
 
 * Q: After looking at existing work, how many hidden layers will you use in your MLP for image classification?
@@ -518,7 +518,7 @@ x = F.relu(self.conv1(x))
 
 #### Q3 - 5.24: Kernels
 <p align="center">
-  <img src="./images/lesson-5/q3.png" width="50%">
+  <img src="./images/lesson-6/q3.png" width="50%">
 </p>
 
 * Q: Of the four kernels pictured above, which would be best for finding and enhancing horizontal edges and lines in an image?
