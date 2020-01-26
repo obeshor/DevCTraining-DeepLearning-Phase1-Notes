@@ -8,7 +8,7 @@
   For example, the following figure shows a recurrent neural network that runs four times. Notice that the values learned in the hidden layers from the first run become part of the input to the same hidden layers in the second run. Similarly, the values learned in the hidden layer on the second run become part of the input to the same hidden layer in the third run. In this way, the recurrent neural network gradually trains and predicts the meaning of the entire sequence rather than just the meaning of individual words.
 
   <p align="center">
-    <img src="./images/lesson-7/rnn.svg" width="75%">
+    <img src="./images/lesson-8/rnn.svg" width="75%">
   </p>
 
 * LSTM (__L__ ong __S__ hort - __T__ erm __M__ emory)
@@ -23,7 +23,7 @@
 * RNN has problem with the memory that is short term memory
 
 <p align="center">
-  <img src="./images/lesson-7/rnn.PNG" width="50%">
+  <img src="./images/lesson-8/rnn.PNG" width="50%">
 </p>
 
 * LSTM works as follows:
@@ -32,7 +32,7 @@
 * From there, we get a new long term memory, short term memory and a prediction. In here, we protect old information more.
 
 <p align="center">
-  <img src="./images/lesson-7/lstm.PNG" width="50%">
+  <img src="./images/lesson-8/lstm.PNG" width="50%">
 </p>
 
 #### Basics of LSTM
@@ -51,24 +51,24 @@
     decide what information use from what previously know plus what we just learned to make a prediction. The output becomes both the prediction and the new short term memory (__STM__)
 
   <p align="center">
-    <img src="./images/lesson-7/lstm-arch.PNG" width="50%">
+    <img src="./images/lesson-8/lstm-arch.PNG" width="50%">
   </p>
 
   <p align="center">
-    <img src="./images/lesson-7/lstm-arch-2.PNG" width="50%">
+    <img src="./images/lesson-8/lstm-arch-2.PNG" width="50%">
   </p>
 
 #### Architecture of LSTM
 * RNN Architecture
 
 <p align="center">
-  <img src="./images/lesson-7/rnn-math.PNG" width="50%">
+  <img src="./images/lesson-8/rnn-math.PNG" width="50%">
 </p>
 
 * LSTM Architecture
 
 <p align="center">
-  <img src="./images/lesson-7/lstm-math.PNG" width="50%">
+  <img src="./images/lesson-8/lstm-math.PNG" width="50%">
 </p>
 
 #### The Learn Gate
@@ -78,15 +78,15 @@
   * then ignore (ignore factor) a bit to keep the important part of it (use __sigmoid__ activation function)
 
 <p align="center">
-  <img src="./images/lesson-7/learn-gate.PNG" width="50%">
+  <img src="./images/lesson-8/learn-gate.PNG" width="50%">
 </p>
 
 <p align="center">
-  <img src="./images/lesson-7/learn-gate-math.PNG" width="50%">
+  <img src="./images/lesson-8/learn-gate-math.PNG" width="50%">
 </p>
 
 <p align="center">
-  <img src="./images/lesson-7/learn-eq.png" width="50%">
+  <img src="./images/lesson-8/learn-eq.png" width="50%">
 </p>
 
 #### The Forget Gate
@@ -95,15 +95,15 @@
   * Take __LTM__ and decides what parts to keep and to forget (forget factor, use __sigmoid__ activation function)
 
 <p align="center">
-  <img src="./images/lesson-7/forget-gate.PNG" width="50%">
+  <img src="./images/lesson-8/forget-gate.PNG" width="50%">
 </p>
 
 <p align="center">
-  <img src="./images/lesson-7/forget-gate-math.PNG" width="50%">
+  <img src="./images/lesson-8/forget-gate-math.PNG" width="50%">
 </p>
 
 <p align="center">
-  <img src="./images/lesson-7/forget-eq.png" width="50%">
+  <img src="./images/lesson-8/forget-eq.png" width="50%">
 </p>
 
 #### The Remember Gate
@@ -112,15 +112,15 @@
   * Take LTM coming out of forget gate and STM coming out of learn gate and combine them together
 
 <p align="center">
-  <img src="./images/lesson-7/remember-gate.PNG" width="50%">
+  <img src="./images/lesson-8/remember-gate.PNG" width="50%">
 </p>
 
 <p align="center">
-  <img src="./images/lesson-7/remember-gate-math.PNG" width="50%">
+  <img src="./images/lesson-8/remember-gate-math.PNG" width="50%">
 </p>
 
 <p align="center">
-  <img src="./images/lesson-7/remember-gate-eq.PNG" width="50%">
+  <img src="./images/lesson-8/remember-gate-eq.PNG" width="50%">
 </p>
 
 #### The Use Gate
@@ -129,25 +129,25 @@
   * Take LTM coming out of forget gate (apply __tanh__) and STM coming out of learn gate (apply __sigmoid__) to come up with a new STM and an output (multiply them together)
 
 <p align="center">
-  <img src="./images/lesson-7/use-gate.PNG" width="50%">
+  <img src="./images/lesson-8/use-gate.PNG" width="50%">
 </p>
 
 <p align="center">
-  <img src="./images/lesson-7/use-gate-math.PNG" width="50%">
+  <img src="./images/lesson-8/use-gate-math.PNG" width="50%">
 </p>
 
 <p align="center">
-  <img src="./images/lesson-7/use-gate-eq.PNG" width="50%">
+  <img src="./images/lesson-8/use-gate-eq.PNG" width="50%">
 </p>
 
 #### Putting it All Together
 
 <p align="center">
-  <img src="./images/lesson-7/lstm-full.PNG" width="50%">
+  <img src="./images/lesson-8/lstm-full.PNG" width="50%">
 </p>
 
 <p align="center">
-  <img src="./images/lesson-7/lstm-full-math.PNG" width="50%">
+  <img src="./images/lesson-8/lstm-full-math.PNG" width="50%">
 </p>
 
 #### Other architectures
@@ -157,21 +157,21 @@
   * only returns one working memory
 
 <p align="center">
-  <img src="./images/lesson-7/gru.PNG" width="50%">
+  <img src="./images/lesson-8/gru.PNG" width="50%">
 </p>
 
 * Peephole Connections
   * forget gate which also connect LTM into neural network that calculates forget factor
 
 <p align="center">
-  <img src="./images/lesson-7/peephole-conn.PNG" width="50%">
+  <img src="./images/lesson-8/peephole-conn.PNG" width="50%">
 </p>
 
 * LSTM with Peephole Connection
   * do peephole connection for every one of forget-type nodes
 
 <p align="center">
-  <img src="./images/lesson-7/lstm-with-peephole.PNG" width="50%">
+  <img src="./images/lesson-8/lstm-with-peephole.PNG" width="50%">
 </p>
 
 #### Character-wise RNNs
@@ -183,7 +183,7 @@
   * use cross entropy loss for training with gradient descent
 
 <p align="center">
-  <img src="./images/lesson-7/character-wise.PNG" width="50%">
+  <img src="./images/lesson-8/character-wise.PNG" width="50%">
 </p>
 
 #### Sequence Batching
@@ -195,7 +195,7 @@
   * we can retain hidden state from one batch and use it at the start of the next batch
 
 <p align="center">
-  <img src="./images/lesson-7/sequence-batching.PNG" width="50%">
+  <img src="./images/lesson-8/sequence-batching.PNG" width="50%">
 </p> 
 
 ### Quizes
