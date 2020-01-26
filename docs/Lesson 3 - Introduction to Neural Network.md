@@ -244,6 +244,6 @@ Learning rate decay is a process of decreasing the learning rate over the course
 The backpropagation step involves taking a lot of products of the numbers below zero, so sometimes gradients become vanishingly small as the slope of sigmoid function if quite small when the function approaches 1 or 0. So, there are some other activation functions that can help to diminish the problem
 
 ### Notebooks
-* [Gradient Descent](https://github.com/agungsantoso/deep-learning-v2-pytorch/blob/master/intro-neural-networks/gradient-descent/GradientDescent.ipynb)
-* [Analyzing Student Data](https://github.com/agungsantoso/deep-learning-v2-pytorch/blob/master/intro-neural-networks/student-admissions/StudentAdmissions.ipynb)
+* [Gradient Descent](https://github.com/obeshor/deep-learning-v2-pytorch/blob/master/intro-neural-networks/gradient-descent/GradientDescent.ipynb)
+* [Analyzing Student Data](https://github.com/obeshor/deep-learning-v2-pytorch/blob/master/intro-neural-networks/student-admissions/StudentAdmissions.ipynb)
 
