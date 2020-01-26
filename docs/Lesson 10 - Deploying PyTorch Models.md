@@ -30,7 +30,7 @@
     * annotations
 
 <p align="center">
-  <img src="./images/lesson-9/tracing.PNG" width="50%">
+  <img src="./images/lesson-10/tracing.PNG" width="50%">
 </p> 
 
 #### Annotations
@@ -39,7 +39,7 @@
 * We can use `save` method to serialize script module to a file which can then be loaded into C++
 
 <p align="center">
-  <img src="./images/lesson-9/annotations.PNG" width="50%">
+  <img src="./images/lesson-10/annotations.PNG" width="50%">
 </p> 
 
 #### PyTorch C++ API
