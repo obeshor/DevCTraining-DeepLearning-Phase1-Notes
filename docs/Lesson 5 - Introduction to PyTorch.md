@@ -6,7 +6,7 @@
 
 The primary data structure in TensorFlow programs. Tensors are N-dimensional (where N could be very large) data structures, most commonly scalars, vectors, or matrices. The elements of a Tensor can hold integer, floating-point, or string values.
 <p align="center">
-  <img src="./images/lesson-4/tensor.PNG" width="50%">
+  <img src="./images/lesson-5/tensor.PNG" width="50%">
 </p>
 
 * [torch.sum()](https://pytorch.org/docs/stable/torch.html#torch.sum)
