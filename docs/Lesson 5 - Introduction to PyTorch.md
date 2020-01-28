@@ -2,7 +2,7 @@
 ### Lectures
 
 #### Single layer neural networks
-* tensor
+* Tensor
 
 The primary data structure in TensorFlow programs. Tensors are N-dimensional (where N could be very large) data structures, most commonly scalars, vectors, or matrices. The elements of a Tensor can hold integer, floating-point, or string values.
 <p align="center">
@@ -22,7 +22,7 @@ The primary data structure in TensorFlow programs. Tensors are N-dimensional (wh
 The "knobs" that you tweak during successive runs of training a model. For example, learning rate is a hyperparameter.
 
 #### Neural Networks in PyTorch
-* neural network
+* Neural network
 
 A model that, taking inspiration from the brain, is composed of layers (at least one of which is hidden) consisting of simple connected units or neurons followed by nonlinearities.
 
@@ -30,7 +30,7 @@ A model that, taking inspiration from the brain, is composed of layers (at least
 
 A public-domain data set compiled by LeCun, Cortes, and Burges containing 60,000 images, each image showing how a human manually wrote a particular digit from 0–9. Each image is stored as a 28x28 array of integers, where each integer is a grayscale value between 0 and 255, inclusive.
 <p align="center">
-  <img src="https://github.com/agungsantoso/deep-learning-v2-pytorch/blob/master/intro-to-pytorch/assets/mnist.png?raw=1" width="50%">
+  <img src="https://github.com/obeshor/deep-learning-v2-pytorch/blob/master/intro-to-pytorch/assets/mnist.png?raw=1" width="50%">
 </p>
 
 * activation function
@@ -40,39 +40,39 @@ A function (for example, ReLU or sigmoid) that takes in the weighted sum of all 
  * [nn.Sequential](https://pytorch.org/docs/master/nn.html#torch.nn.Sequential)
 
 #### Network Architectures in PyTorch
-* backpropagation
+* Backpropagation
 
 The primary algorithm for performing gradient descent on neural networks. First, the output values of each node are calculated (and cached) in a forward pass. Then, the partial derivative of the error with respect to each parameter is calculated in a backward pass through the graph.
 
-* batch
+* Batch
 
 The set of examples used in one iteration (that is, one gradient update) of model training.
 
-* batch size
+* Batch size
 
 The number of examples in a batch. For example, the batch size of SGD is 1, while the batch size of a mini-batch is usually between 10 and 1000. Batch size is usually fixed during training and inference;
 
-* cross-entropy
+* Cross-entropy
 
 A generalization of Log Loss to multi-class classification problems. Cross-entropy quantifies the difference between two probability distributions
 
-* epoch
+* Epoch
 
 A full training pass over the entire data set such that each example has been seen once. Thus, an epoch represents N/batch size training iterations, where N is the total number of examples.
 
-* hidden layer
+* Hidden layer
 
 A synthetic layer in a neural network between the input layer (that is, the features) and the output layer (the prediction). Hidden layers typically contain an activation function (such as ReLU) for training. A deep neural network contains more than one hidden layer.
 
-* logits
+* Logits
 
 The vector of raw (non-normalized) predictions that a classification model generates, which is ordinarily then passed to a normalization function. If the model is solving a multi-class classification problem, logits typically become an input to the softmax function. The softmax function then generates a vector of (normalized) probabilities with one value for each possible class.
 
-* optimizer
+* Optimizer
 
 A specific implementation of the gradient descent algorithm.
 
-* step
+* Step
 
 A forward and backward evaluation of one batch.
 step size
@@ -92,23 +92,23 @@ A gradient descent algorithm in which the batch size is one. In other words, SGD
 * [the optimizer](http://pytorch.org/docs/master/optim.html)
 
 #### Inference and Validation
-* dropout regularization
+* Dropout regularization
 
 A form of regularization useful in training neural networks. Dropout regularization works by removing a random selection of a fixed number of the units in a network layer for a single gradient step. The more units dropped out, the stronger the regularization. This is analogous to training the network to emulate an exponentially large ensemble of smaller networks.
 
-* inference
+* Inference
 
 In machine learning, often refers to the process of making predictions by applying the trained model to unlabeled examples. In statistics, inference refers to the process of fitting the parameters of a distribution conditioned on some observed data. (See the Wikipedia article on statistical inference.)
 
-* overfitting
+* Overfitting
 
 Creating a model that matches the training data so closely that the model fails to make correct predictions on new data.
 
-* precision
+*Precision
 
 A metric for classification models. Precision identifies the frequency with which a model was correct when predicting the positive class.
 
-* recall
+* Recall
 
 A metric for classification models that answers the following question: Out of all the possible positive labels, how many did the model correctly identify?
 
@@ -119,7 +119,7 @@ A subset of the data set—disjunct from the training set—that you use to adju
 * [nn.Dropout](https://pytorch.org/docs/stable/nn.html#torch.nn.Dropout)
 
 #### Saving and Loading Models
-* checkpoint
+* Checkpoint
 
 Data that captures the state of the variables of a model at a particular time. Checkpoints enable exporting model weights, as well as performing training across multiple sessions. Checkpoints also enable training to continue past errors (for example, job preemption). Note that the graph itself is not included in a checkpoint.
 
