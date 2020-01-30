@@ -20,10 +20,10 @@
 #### Debugging and Designing PyTorch
 * If you have a non-contiguous tensor and sent it through a linear layer it will just give you garbage
 * A trade-off there where the readability comes at a cost of it being a little bit slow
-* the autograd and the entire internal autograd engine is all written in python.
-* it should be very imperative very usable very pythonic but at the same time as fast as any other framework
-* the consequences of that was like large parts of PyTorch live in C++ except whatever is user-facing is still in python.
-* you can attach your debugger you can print, those are still very very hackable.
+* The autograd and the entire internal autograd engine is all written in python.
+* It should be very imperative very usable very pythonic but at the same time as fast as any other framework
+* The consequences of that was like large parts of PyTorch live in C++ except whatever is user-facing is still in python.
+* You can attach your debugger you can print, those are still very very hackable.
 
 #### From Research to Production
 * They gave it a bunch of researchers and they took a rapid feedback from them and improve the product before it became mature so the core design of PyTorch is  very researcher friendly
@@ -33,29 +33,33 @@
 * They built PyTorch event geared for production is you do research but when you want it to be production ready you just add functional annotations to your model which are like these one-liners that are top of a function. PyTorch will parse your model, your python program itself
 
 #### Hybrid Frontend
-* We called a new programming model hybrid front-end because you can make parts of a model like compiled parts of my model and gives you the best of both worlds
+* They called a new programming model hybrid front-end because you can make parts of a model like compiled parts of my model and gives you the best of both worlds.
+* The hybrid font end is allowing you to just of switch in between python and basicall like C++ representation.
+* In the short-term, the JIT compiler in PyTorch is to make sure we can export everything to production ready.
+* In th long-term, they are going to make the parts of model non trivialy faster by fusing operations, making more of the memory bandwith bound operations into compute bond operations
 
 #### Cutting-edge Applications in PyTorch
-* one paper written by one person Andy Brock it was called smash where one neural network would generate the weights that would be powered
-* hierarchical story generation so you would see a story with like hey I want a story of a boy swimming in a pond and then it would actually like generate a story that's interesting with that plot
-* openly available github repositories, it's also just like very readable of work where you look at something you can clearly see like here are the inputs here is what's happening as far as it being transformed and here are the desired outputs
+* One paper written by one person Andrew Brock it was called ``smash`` where one neural network would generate the weights that would be powered for another neural network.
+* Angela Fan and her collaborators publised ``hierarchical story generation`` so you would see a story with like hey I want a story of a boy swimming in a pond and then it would actually like generate a story that's interesting with that plot
+* Openly available github repositories, it's also just like very readable of work where you look at something you can clearly see like here are the inputs here is what's happening as far as it being transformed and here are the desired outputs
 
 #### User Needs and Adding Features
-* what users are wanting especially with being able to put models to production
-* when they're exploring new ideas they don't want to be seeing like a 10x drop in performance
-* online courses they want more interactive tutorials like based on a Python notebooks 
-* some widgets they want first-class integration with collab
+* When they're exploring new ideas they don't want to be seeing like a 10x drop in performance
+* Online courses they want more interactive tutorials like based on a Python notebooks 
+* Some widgets they want first-class integration with colab for free GPU.
+* Users have been asking for support for Google TPUs, Cloud providers (Amazon, Azure made  pyTorch a first-class citizen). Google announced support not onl for Pytorch a first-class citizen, also for TPU support  and TensorBoard integration.
 
 #### PyTorch and the Facebook Product
-* I sort of think of it as being a separate entity from from Facebook which i think you know it definitely has its own life and community
-* we also have a huge set of needs for products at Facebook whether it's our camera enhancements or whether it is our machine translation or whether it's our accessibility interfaces or our integrity filtering
+* Facebook has the AI space, they have Facebook AI Research where they publish research  onto archive with  open datasets, to peer review.
+* They also have a huge set of needs for products at Facebook whether it's our camera enhancements or whether it is our machine translation or whether it's our accessibility interfaces or our integrity filtering. They need tools that can do all of these.
+* Their mission is to do AI research in the open and advance humanity using AI
 
 #### The Future of PyTorch
-* the next thing I was thinking was deep learning itself is becoming a very pervasive and essential confident in many other fields
+* The next thing he was thinking : deep learning itself is becoming a very pervasive and essential competent in many other fields (health care, data, computational chemistry, Neurobiology, Neuroscience). So they would build a cute package which they coud relate to.
 
 #### Learning More in AI
-* Ethos that that as students are yet trying to get into the field of deep learning either to apply it to their own stuff or just to learn the concepts it's very important to make sure you do it from day one
-* my only advice to people is to make sure you do lesser but like do it hands-on
+* Students are yet trying to get into the field of deep learning either to apply it to their own stuff or just to learn the concepts it's very important to make sure you do it from day one; He encourages people to do projects, review the projects and give feedback
+* His only advice to people is to make sure you do lesser but like do it hands-on
 
 
 
