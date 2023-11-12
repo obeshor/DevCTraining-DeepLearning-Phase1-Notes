@@ -25,4 +25,3 @@ More detailes about the program [here](https://www.udacity.com/scholarships/face
 ## Credits
 1. Images taken from lectures videos at [Intro to Deep Learning with PyTorch](https://www.udacity.com/course/deep-learning-pytorch--ud188)
 2. [Machine Learning Glossary](https://developers.google.com/machine-learning/glossary/)
-3. Inspired by [Agung Santoso](https://github.com/agungsantoso/pytorch-scholarship-challenge-notes)
